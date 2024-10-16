@@ -2,24 +2,26 @@
 
 UOfT-DSI Cohort 4 - Team 24's Project Repo 
 
-Dataset
-- Disease Prediction Using Machine Learning
+<h2>Dataset</h2>
+Disease Prediction Using Machine Learning
 
-Research Question
+<h2>Research Question</h2>
 <TODO>
 
-Business Case
+<h2>Business Case</h2>
 <TODO>
 
 Who is the intended audience for our data analysis? 
 <TODO>
 
-Reference
+<h2>Reference</h2>
 <TODO>
 
-Members
-- Isaias (Jay) Menorca
-- Ly (Lee) Nguyen 
-- Namreen Syed
-- Shruti Patel
-- Xiaoxiao Gong
+<h2>Members</h2>
+<ul>
+  <li>Isaias (Jay) Menorca</li>
+  <li>Ly (Lee) Nguyen</li>
+  <li>Namreen Syed</li>
+  <li>Shruti Patel</li>
+  <li>Xiaoxiao Gong</li>
+</ul>
