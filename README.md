@@ -35,3 +35,4 @@ https://open.toronto.ca/dataset/ttc-streetcar-delay-data/
 2.) run loadXlsx2DB.py
 3.) run cleanupDB.py
 4.) run createDateTable.py
+5.) run query file -> create_line_table.sql

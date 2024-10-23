@@ -35,6 +35,15 @@ def main():
     # Add isEndOfMth column
     df['isEndOfMth'] = df['incident_date'].dt.is_month_end
 
+    # Load Line table to get lineType
+    line_table_name = 'Line'  # Replace with your line table name
+    line_df = load_from_db(db_name, line_table_name)
+
+    # Ensure lineType is set to 4 if Streetcar_Delay_Data.line value is not found in Line.lineId
+    line_df['lineType'] = line_df['lineType'].fillna(4) # Assuming 4 is the default value
+    
+    # Merge the dataframes on lineId
+    df = df.merge(line_df[['lineId', 'lineType']], left_on='line', right_on='lineId', how='left')
 
     # Display the DataFrame
     print(df)
