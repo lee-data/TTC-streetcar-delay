@@ -28,3 +28,10 @@ https://open.toronto.ca/dataset/ttc-streetcar-delay-data/
   <li>Shruti Patel</li>
   <li>Xiaoxiao Gong</li>
 </ul>
+
+<h2>Project Notes</h2>
+<h3>Data Preparation</h3>
+1.) run query streetcar_delay_data_schema.sql
+2.) run loadXlsx2DB.py
+3.) run cleanupDB.py
+4.) run createDateTable.py
