@@ -60,7 +60,13 @@ def main():
     df['delayType'] = df['min_delay'].apply(get_delay_type)
 
     # Display the DataFrame
-    print(df)
+    #print(df)
     
+    #for lineType that has not been set, set it to 4
+    df['lineType'] = df['lineType'].fillna(4)
+    
+    #show 20 records where lineType is set to 4
+    print(df[df['lineType']==4].head(20))
+        
 if __name__ == "__main__":
     main()
