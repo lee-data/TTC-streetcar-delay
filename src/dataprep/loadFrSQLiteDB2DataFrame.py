@@ -45,6 +45,20 @@ def main():
     # Merge the dataframes on lineId
     df = df.merge(line_df[['lineId', 'lineType']], left_on='line', right_on='lineId', how='left')
 
+    # Load Delay table to get delayType
+    delay_table_name = 'Delay'  # Replace with your delay table name
+    delay_df = load_from_db(db_name, delay_table_name)
+
+    # Function to determine delayType
+    def get_delay_type(min_delay):
+        for _, row in delay_df.iterrows():
+            if row['delayFrom'] <= min_delay <= row['delayTo']:
+                return row['delayId']
+        return None
+
+    # Apply the function to determine delayType
+    df['delayType'] = df['min_delay'].apply(get_delay_type)
+
     # Display the DataFrame
     print(df)
     
