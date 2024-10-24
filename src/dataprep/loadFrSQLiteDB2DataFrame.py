@@ -25,48 +25,33 @@ def main():
     # Convert Incident_Date to datetime
     df['incident_date'] = pd.to_datetime(df['incident_date'])
 
-    # Add isHoliday column (assuming you have a function or list of holidays)
-    holidays = ['2023-01-01', '2023-12-25']  # Example holidays
-    df['isHoliday'] = df['incident_date'].dt.strftime('%Y-%m-%d').isin(holidays)
+    # Load Date table to get isHoliday, isWeekend, and isEndOfMth columns
+    date_table_name = 'Date'  # Replace with your date table name
+    date_df = load_from_db(db_name, date_table_name)
+    date_df['date'] = pd.to_datetime(date_df['date'])
 
-    # Add isWeekend column
-    df['isWeekend'] = df['incident_date'].dt.weekday >= 5
-
-    # Add isEndOfMth column
-    df['isEndOfMth'] = df['incident_date'].dt.is_month_end
+    # Merge Date table with Streetcar_Delay_Data table on incident_date
+    df = df.merge(date_df[['date', 'isHoliday', 'isWeekend', 'isEndOfMth']], left_on='incident_date', right_on='date', how='left')
+    df.drop(columns=['date'], inplace=True)
 
     # Load Line table to get lineType
     line_table_name = 'Line'  # Replace with your line table name
     line_df = load_from_db(db_name, line_table_name)
 
     # Ensure lineType is set to 4 if Streetcar_Delay_Data.line value is not found in Line.lineId
-    line_df['lineType'] = line_df['lineType'].fillna(4) # Assuming 4 is the default value
-    
-    # Merge the dataframes on lineId
-    df = df.merge(line_df[['lineId', 'lineType']], left_on='line', right_on='lineId', how='left')
+    if 'lineId' in line_df.columns:
+        line_df = line_df.set_index('lineId')
+        df['lineType'] = df['line'].map(line_df['lineType']).fillna(4).astype(int)
+    else:
+        raise KeyError("Column 'lineId' not found in Line DataFrame")
 
-    # Load Delay table to get delayType
-    delay_table_name = 'Delay'  # Replace with your delay table name
-    delay_df = load_from_db(db_name, delay_table_name)
+    # Display records where isHoliday is True and incident date is 
+    # not same as previous record's incident date
+    #mask = (df['isHoliday'] == True) & (df['incident_date'] != df['incident_date'].shift(1))
+    #print(df[mask])
+    print(df)
 
-    # Function to determine delayType
-    def get_delay_type(min_delay):
-        for _, row in delay_df.iterrows():
-            if row['delayFrom'] <= min_delay <= row['delayTo']:
-                return row['delayId']
-        return None
 
-    # Apply the function to determine delayType
-    df['delayType'] = df['min_delay'].apply(get_delay_type)
 
-    # Display the DataFrame
-    #print(df)
-    
-    #for lineType that has not been set, set it to 4
-    df['lineType'] = df['lineType'].fillna(4)
-    
-    #show 20 records where lineType is set to 4
-    print(df[df['lineType']==4].head(20))
-        
 if __name__ == "__main__":
     main()
