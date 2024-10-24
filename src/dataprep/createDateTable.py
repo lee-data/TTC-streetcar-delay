@@ -7,6 +7,9 @@ def create_date_table(db_name):
     conn = sqlite3.connect(db_name)
     cursor = conn.cursor()
     
+    # Drop Date table if it exists
+    cursor.execute('DROP TABLE IF EXISTS Date')
+    
     # Create Date table
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS Date (
