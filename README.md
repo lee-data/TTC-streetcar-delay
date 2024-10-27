@@ -68,22 +68,12 @@ https://open.toronto.ca/dataset/ttc-streetcar-delay-data/
 
 <h2>Members</h2>
 <ul>
-  <li>Isaias (Jay) Menorca: Github, ELT </li>
+  <li>Isaias (Jay) Menorca: Project Repository Setup, DB Setup - Schema, ETL, Initial Data Prep </li>
   <li>Ly (Lee) Nguyen: Data Pre-processing, Analysis, Insights, Data Visualization, Conclusion</li>
   <li>Xiaoxiao Gong: Insights (with Data Visualization), Conclusion</li>
   <li>Shruti Patel: Optional Appendix</li>
   <li>Namreen Syed: Optional Appendix</li>
-  
-  
 </ul>
 
 
 <h2>Project Notes</h2>
-<h3>Data Preparation</h3>
-<li>1.) run query file -> streetcar_delay_data_schema.sql</li>
-<li>2.) run loadXlsx2DB.py</li>
-<li>3.) run cleanupDB.py</li>
-<li>4.) run createDateTable.py</li>
-<li>5.) run query file -> create_line_table.sql</li>
-<li>6.) run query file -> create_delay-table.sql</li>
-<li>7.) run loadFrSQLiteDB2DataFrame.py to see sample loading to DataFrame with additional generated column</li>
