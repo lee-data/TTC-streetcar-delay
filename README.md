@@ -71,8 +71,8 @@ https://open.toronto.ca/dataset/ttc-streetcar-delay-data/
   <li>Isaias (Jay) Menorca: Github, ELT </li>
   <li>Ly (Lee) Nguyen: Data Pre-processing, Analysis (Predictive Modeling & Model Evaluation)</li>
   <li>Xiaoxiao Gong: Data Visualization, Insights, Conclusion</li>
-  <li>Shruti Patel: Data Visualization, Insights, Conclusion</li>
-  <li>Namreen Syed: Data Visualization, Insights, Conclusion</li>
+  <li>Shruti Patel: Appendix</li>
+  <li>Namreen Syed: Appendix</li>
   
   
 </ul>
