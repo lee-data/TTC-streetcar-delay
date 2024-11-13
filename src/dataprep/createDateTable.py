@@ -14,9 +14,8 @@ def create_date_table(db_name):
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS Date (
             date TEXT PRIMARY KEY,
-            isHoliday BOOLEAN,
-            isWeekend BOOLEAN,
-            isEndOfMth BOOLEAN
+            holidayType TEXT,
+            isWeekend TEXT
         )
     ''')
     
@@ -25,25 +24,41 @@ def create_date_table(db_name):
     end_date = datetime(2024, 12, 31)
     delta = timedelta(days=1)
     
+    # Define holidays with their names
+    holidays = {
+        '2023-01-01': "New Year's Day",
+        '2023-02-20': "Family Day",
+        '2023-04-07': "Good Friday",
+        '2023-05-22': "Victoria Day",
+        '2023-07-01': "Canada Day",
+        '2023-07-03': "Canada Day",  # Observed holiday since July 1 is a Saturday
+        '2023-09-04': "Labour Day",
+        '2023-10-09': "Thanksgiving",
+        '2023-12-25': "Christmas Day",
+        '2023-12-26': "Boxing Day",
+        '2024-01-01': "New Year's Day",
+        '2024-02-19': "Family Day",
+        '2024-03-29': "Good Friday",
+        '2024-05-20': "Victoria Day",
+        '2024-07-01': "Canada Day",
+        '2024-09-02': "Labour Day",
+        '2024-10-14': "Thanksgiving",
+        '2024-12-25': "Christmas Day",
+        '2024-12-26': "Boxing Day"
+    }
+    
     # Insert dates into Date table
     current_date = start_date
     while current_date <= end_date:
         date_str = current_date.strftime('%Y-%m-%d')
-        is_weekend = current_date.weekday() >= 5
-        is_end_of_month = (current_date + delta).month != current_date.month
-        
-        holidays = {
-            '2023-01-01', '2023-01-02','2023-02-20', '2023-04-07', '2023-05-22',
-            '2023-07-01', '2023-07-03','2023-08-07', '2023-09-04', '2023-10-09',
-            '2023-12-25', '2023-12-26', '2024-01-01', '2024-02-19', '2024-03-29',
-            '2024-04-01', '2024-05-20', '2024-07-01', '2024-08-05', '2024-09-02',
-            '2024-10-14', '2024-12-25', '2024-12-26'}
-        is_holiday = date_str in holidays
-        
+        is_weekend = "yes" if current_date.weekday() >= 5 else "no"
+        holidayType = holidays.get(date_str, None)  # None if not a holiday
+                
+        # Insert data into the table
         cursor.execute('''
-            INSERT INTO Date (date, isHoliday, isWeekend, isEndOfMth)
-            VALUES (?, ?, ?, ?)
-        ''', (date_str, is_holiday, is_weekend, is_end_of_month))
+            INSERT INTO Date (date, holidayType, isWeekend)
+            VALUES (?, ?, ?)
+        ''', (date_str, holidayType, is_weekend))
         
         current_date += delta
     

@@ -22,16 +22,16 @@ def main():
     # Load data from SQLite database
     df = load_from_db(db_name, table_name)
     
-    # Convert Incident_Date to datetime
+    # Convert incident_date to datetime
     df['incident_date'] = pd.to_datetime(df['incident_date'])
 
-    # Load Date table to get isHoliday, isWeekend, and isEndOfMth columns
+    # Load Date table to get holidayType and isWeekend columns
     date_table_name = 'Date'  # Replace with your date table name
     date_df = load_from_db(db_name, date_table_name)
     date_df['date'] = pd.to_datetime(date_df['date'])
 
     # Merge Date table with Streetcar_Delay_Data table on incident_date
-    df = df.merge(date_df[['date', 'isHoliday', 'isWeekend', 'isEndOfMth']], left_on='incident_date', right_on='date', how='left')
+    df = df.merge(date_df[['date', 'holidayType', 'isWeekend']], left_on='incident_date', right_on='date', how='left')
     df.drop(columns=['date'], inplace=True)
 
     # Load Line table to get lineType
@@ -45,13 +45,8 @@ def main():
     else:
         raise KeyError("Column 'lineId' not found in Line DataFrame")
 
-    # Display records where isHoliday is True and incident date is 
-    # not same as previous record's incident date
-    #mask = (df['isHoliday'] == True) & (df['incident_date'] != df['incident_date'].shift(1))
-    #print(df[mask])
+    # Display the DataFrame
     print(df)
-
-
 
 if __name__ == "__main__":
     main()
