@@ -13,5 +13,5 @@ CREATE TABLE Delay (
 INSERT INTO Delay (delayId, delayFrom, delayTo, label) VALUES
 (1, 0, 5, '0-5'),
 (2, 6, 15, '6-15'),
-(3, 15, 1000, '>16');
+(3, 16, 1000, '>16');
 
