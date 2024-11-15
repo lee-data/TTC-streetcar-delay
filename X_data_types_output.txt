@@ -142,7 +142,6 @@ location_337 KING ST WEST            bool
 location_343 WILSON                  bool
 location_349 RONCESVALLES            bool
 location_35 WORKMAN WAY              bool
-location_351 SPADINA AV              bool
 location_354 GERRARD STREET EAS      bool
 location_358 QUEEN ST E              bool
 location_361 BROADVIEW AVE           bool
@@ -279,7 +278,6 @@ location_AVON LOOP                   bool
 location_B/W GERRARD AND BOULTO      bool
 location_BAT AND FRONT WEST          bool
 location_BATHRUST AND DUNDAS         bool
-location_BATHRUST AND FLEET          bool
 location_BATHURAT AND COLLEGE        bool
 location_BATHURST AND ADELAIDE       bool
 location_BATHURST AND BANNOCKBU      bool
@@ -295,7 +293,6 @@ location_BATHURST AND DUNDAS         bool
 location_BATHURST AND DUPONT         bool
 location_BATHURST AND EGLINTON       bool
 location_BATHURST AND FLEET          bool
-location_BATHURST AND FORT YOR       bool
 location_BATHURST AND FORT YORK      bool
 location_BATHURST AND FORTH YOR      bool
 location_BATHURST AND FRONT          bool
@@ -309,7 +306,6 @@ location_BATHURST AND LENNOX         bool
 location_BATHURST AND MELGUND        bool
 location_BATHURST AND N OF QUEE      bool
 location_BATHURST AND NASSAU         bool
-location_BATHURST AND NASSUA         bool
 location_BATHURST AND NIAGARA        bool
 location_BATHURST AND PORTLAND       bool
 location_BATHURST AND QUEEN          bool
@@ -368,7 +364,6 @@ location_BAY AND GERRARD             bool
 location_BAY AND HARBOUR             bool
 location_BAY AND KING                bool
 location_BAY AND LAKE SHORE          bool
-location_BAY AND LAKESHORE           bool
 location_BAY AND QUEEN               bool
 location_BAY AND QUEENS QUAY TE      bool
 location_BAY AND QUEENSWAY           bool
@@ -381,7 +376,6 @@ location_BERKELEY AND KING           bool
 location_BERKELEY AND QUEEN          bool
 location_BERKELY AND KING            bool
 location_BERKERLEY AND KING          bool
-location_BEVERLY AND DUNDAS          bool
 location_BINGAM LOOP                 bool
 location_BINGHAM AND KINGSTON        bool
 location_BINGHAM LOOP                bool
@@ -425,7 +419,6 @@ location_BROADVIEW AND MOUNT ST      bool
 location_BROADVIEW AND MOUNTSEP      bool
 location_BROADVIEW AND MOUNTSTE      bool
 location_BROADVIEW AND MOUNTSTP      bool
-location_BROADVIEW AND PRETORIA      bool
 location_BROADVIEW AND QUEEN         bool
 location_BROADVIEW AND QUEEN EA      bool
 location_BROADVIEW AND RIVERDAL      bool
@@ -458,7 +451,6 @@ location_BROWN'S LINE AND LAKES      bool
 location_BROWNS LINE AND LAKESH      bool
 location_BURLINGTON AND LAKESHO      bool
 location_CALEDONIA AND LANSDOWN      bool
-location_CALEDONIA AND ST CLAIR      bool
 location_CANADA AND PRINCES          bool
 location_CANADA BLVD AND MANITO      bool
 location_CANADIAN NATIONAL EXHI      bool
@@ -473,7 +465,6 @@ location_CARLTON AND CHURCH          bool
 location_CARLTON AND CHURCH (WE      bool
 location_CARLTON AND DUNDAS          bool
 location_CARLTON AND JARVIS          bool
-location_CARLTON AND MCCAUL          bool
 location_CARLTON AND MUTUAL          bool
 location_CARLTON AND ONTARIO         bool
 location_CARLTON AND ONTARIO ST      bool
@@ -490,7 +481,6 @@ location_CARROLL AND QUEEN           bool
 location_CASTLE FRANK STATION        bool
 location_CHARLOTTE AND ADELAIDE      bool
 location_CHARLOTTE AND KING          bool
-location_CHARLOTTE AND KING ST       bool
 location_CHARLOTTE AND KING WES      bool
 location_CHARLOTTE AND OXLEY         bool
 location_CHARLOTTE LOOP              bool
@@ -526,10 +516,8 @@ location_CHURCH AND QUEEN EAST       bool
 location_CHURCH AND RICHMOND         bool
 location_CHURCH AND RICHMOND EA      bool
 location_CHURCH AND WELLINGTON       bool
-location_CHURCH AT WELLINGTON        bool
 location_CHURCH ST AND LOMBARD       bool
 location_CHURCH ST AT RICHMOND       bool
-location_CHURCH TO JARVIS BOTHW      bool
 location_CNE                         bool
 location_CNE EAST LOOP               bool
 location_CNE EASTERN ENTRANCE        bool
@@ -545,7 +533,6 @@ location_COLLAGE AND GRACE ST        bool
 location_COLLAGE AND UNIVERSITY      bool
 location_COLLEG AND UNIVERSITY       bool
 location_COLLEGE (ST GEORGE TO       bool
-location_COLLEGE - CLINTON TO E      bool
 location_COLLEGE AND AUGUST          bool
 location_COLLEGE AND AUGUSTA         bool
 location_COLLEGE AND BATHRUST        bool
@@ -563,7 +550,6 @@ location_COLLEGE AND BORDAN          bool
 location_COLLEGE AND BORDEN          bool
 location_COLLEGE AND BROCK           bool
 location_COLLEGE AND BROCK AVE       bool
-location_COLLEGE AND BRUNSWICK       bool
 location_COLLEGE AND CARLTON         bool
 location_COLLEGE AND CHURCH          bool
 location_COLLEGE AND CLINTON         bool
@@ -586,7 +572,6 @@ location_COLLEGE AND HURON           bool
 location_COLLEGE AND LANDSDOWNE      bool
 location_COLLEGE AND LANSDOWNE       bool
 location_COLLEGE AND LANSDWONE       bool
-location_COLLEGE AND LANSODWNE       bool
 location_COLLEGE AND LANSOWNE        bool
 location_COLLEGE AND LNASDOWNE       bool
 location_COLLEGE AND MAJOR           bool
@@ -622,7 +607,6 @@ location_COLLEGE ST AND BATHURS      bool
 location_COLLEGE ST AND BROCK A      bool
 location_COLLEGE ST AND YONGE S      bool
 location_COLLEGE ST. AND DUFFER      bool
-location_COLLEGE ST. AND YONGE       bool
 location_COLLEGE STATION             bool
 location_COLLGE AND BORDEN           bool
 location_COLLGE AND YONGE            bool
@@ -660,7 +644,6 @@ location_DISTILLERY LOOP (LEAVI      bool
 location_DORVAL AND BLOOR            bool
 location_DOVERCOURT / QUEEN          bool
 location_DOVERCOURT AND COLLEGE      bool
-location_DUBDAS WEST STATION         bool
 location_DUDNAS AND DVP              bool
 location_DUFFERIN AND BENTWORTH      bool
 location_DUFFERIN AND BLOOR          bool
@@ -697,14 +680,12 @@ location_DUFFERING LOOP              bool
 location_DUNAD AND PARLIAMENT        bool
 location_DUNAS AND LANSDOWNE         bool
 location_DUNDAD WEST STATION         bool
-location_DUNDAS                      bool
 location_DUNDAS AND AUGUSTA          bool
 location_DUNDAS AND BATHURST         bool
 location_DUNDAS AND BATHUST          bool
 location_DUNDAS AND BAY              bool
 location_DUNDAS AND BEACONFIELD      bool
 location_DUNDAS AND BEATRICE         bool
-location_DUNDAS AND BELLWOODS        bool
 location_DUNDAS AND BERKLEY          bool
 location_DUNDAS AND BEVERLEY         bool
 location_DUNDAS AND BEVERLY          bool
@@ -714,14 +695,12 @@ location_DUNDAS AND BRAODVIEW        bool
 location_DUNDAS AND BROADVIEW        bool
 location_DUNDAS AND BROCK            bool
 location_DUNDAS AND BROCK AVE        bool
-location_DUNDAS AND CARROL           bool
 location_DUNDAS AND CASIMIR ST       bool
 location_DUNDAS AND CENTRE           bool
 location_DUNDAS AND CHESNUT          bool
 location_DUNDAS AND CHESTNUT         bool
 location_DUNDAS AND CHUCH            bool
 location_DUNDAS AND CHURCH           bool
-location_DUNDAS AND CLAREMONT        bool
 location_DUNDAS AND CLAREMOUNT       bool
 location_DUNDAS AND COLLEGE          bool
 location_DUNDAS AND COLLEGE (W       bool
@@ -755,7 +734,6 @@ location_DUNDAS AND HURON            bool
 location_DUNDAS AND HURON ST         bool
 location_DUNDAS AND JARVIS           bool
 location_DUNDAS AND KENSINGTON       bool
-location_DUNDAS AND LAKEVIEW         bool
 location_DUNDAS AND LAKEVIEW (       bool
 location_DUNDAS AND LANDSDOWNE       bool
 location_DUNDAS AND LANSDOWN         bool
@@ -783,7 +761,6 @@ location_DUNDAS AND OSSIGNTON        bool
 location_DUNDAS AND OSSINGTON        bool
 location_DUNDAS AND OSSIONGTON       bool
 location_DUNDAS AND PALMERSTON       bool
-location_DUNDAS AND PARK WAY AV      bool
 location_DUNDAS AND PARKWAY          bool
 location_DUNDAS AND PARKWAY AVE      bool
 location_DUNDAS AND PARLIAMENT       bool
@@ -836,14 +813,12 @@ location_DUNDAS AND YONGE ST         bool
 location_DUNDAS ANS LANSDOWNE        bool
 location_DUNDAS AT BROADVIEW         bool
 location_DUNDAS AT COLLEGE           bool
-location_DUNDAS AT HURON ST          bool
 location_DUNDAS AT PARLIAMENT        bool
 location_DUNDAS AT SPADINA           bool
 location_DUNDAS AVE AND SPADINA      bool
 location_DUNDAS BETWEEN GLADSTO      bool
 location_DUNDAS E AND RIVER ST       bool
 location_DUNDAS E OF MCCAUL          bool
-location_DUNDAS EAST AND CHURCH      bool
 location_DUNDAS EAST AND PARLIM      bool
 location_DUNDAS EAST AND RIVER       bool
 location_DUNDAS EAST AND SHERBO      bool
@@ -851,7 +826,6 @@ location_DUNDAS NAND REGENT          bool
 location_DUNDAS PEMBROOK             bool
 location_DUNDAS SQUARE               bool
 location_DUNDAS ST E AND BROADV      bool
-location_DUNDAS ST E AND DALHOU      bool
 location_DUNDAS ST E AND JARVIS      bool
 location_DUNDAS ST E AND PARLAI      bool
 location_DUNDAS ST E AND REGENT      bool
@@ -929,7 +903,6 @@ location_EALSCOURT AND ST CLAIR      bool
 location_EARL'S COURT LOOP           bool
 location_EARLSCOURT AND ST CLAI      bool
 location_EARLSCOURT LOOP             bool
-location_EASTERN AND CHERRY          bool
 location_EASTERN AND LESLIE          bool
 location_EASTERN AND MCGEE           bool
 location_ED AND ANNE MIRVISH PA      bool
@@ -991,7 +964,6 @@ location_FLEET AND STACHAN           bool
 location_FLEET AND STRACHAN          bool
 location_FLEET AND STRACHON          bool
 location_FLEET AND YORK              bool
-location_FLEET B/T STRACHAN AND      bool
 location_FLEET LOOP                  bool
 location_FLEET LOOP AND BASTION      bool
 location_FLEET LOOP AND QUEENSW      bool
@@ -1012,7 +984,6 @@ location_FRONT AND CHERRY            bool
 location_FRONT AND PARLIAMENT        bool
 location_FRONT AND TRINITY           bool
 location_FRONT ST E AND CHERRY       bool
-location_FRONT WEST AND BAY          bool
 location_GARDINER EXPRESSWAY AN      bool
 location_GERARD AND BROADVIEW        bool
 location_GERARD ST E AND ST MAT      bool
@@ -1038,7 +1009,6 @@ location_GERRARD AND BOWMORE         bool
 location_GERRARD AND BOWMORE RD      bool
 location_GERRARD AND BROADVIEW       bool
 location_GERRARD AND CARLAW          bool
-location_GERRARD AND COXWEL          bool
 location_GERRARD AND COXWELL         bool
 location_GERRARD AND COXWELL.        bool
 location_GERRARD AND CRAVEN          bool
@@ -1053,7 +1023,6 @@ location_GERRARD AND GEORGE          bool
 location_GERRARD AND GLENMOUNT       bool
 location_GERRARD AND GLENSIDE        bool
 location_GERRARD AND GOLFVIEW        bool
-location_GERRARD AND GOLFVIEW A      bool
 location_GERRARD AND GREENWOOD       bool
 location_GERRARD AND HAMILTON        bool
 location_GERRARD AND HAMILTON S      bool
@@ -1130,7 +1099,6 @@ location_GERRARD ST E AT MATHEW      bool
 location_GERRARD ST E AT RIVER       bool
 location_GERRARD ST. E. AND GRE      bool
 location_GERRARD ST. E. AND MUN      bool
-location_GERRARD ST. E. AND PAR      bool
 location_GERRARD ST. E. AND RIV      bool
 location_GERRARD W OF BROADVIEW      bool
 location_GERRARD WEST OF BROADV      bool
@@ -1144,7 +1112,6 @@ location_GLADSTONE AVE AND PEEL      bool
 location_GRAFTON AND RONCESVALL      bool
 location_GRANGE AND MCCAUL           bool
 location_GREEN AND WOODFIELD         bool
-location_GREENWOOD AND DANFORTH      bool
 location_GREENWOOD AND DUNDAS        bool
 location_GREENWOOD AND GERRARD       bool
 location_GREENWOOD AND IVY           bool
@@ -1177,7 +1144,6 @@ location_GUNNS RD AT TARRAGONA       bool
 location_GUNNS ROAD AND TARRAGO      bool
 location_HARBORD AND OSSINGTON       bool
 location_HARBORD AND SPADINA         bool
-location_HARBOURFRONT AND LOWER      bool
 location_HARBOURFRONT CENTRE         bool
 location_HARBOURFRONT TUNNEL         bool
 location_HEATH AND SPADINA           bool
@@ -1325,30 +1291,25 @@ location_KING AND SPADINA            bool
 location_KING AND SPDAINA            bool
 location_KING AND SPENCER            bool
 location_KING AND SPRINGHUST         bool
-location_KING AND ST LAWRENCE        bool
 location_KING AND ST. ANDREW         bool
 location_KING AND STAFFORD           bool
 location_KING AND STAFFORD STRE      bool
 location_KING AND STRACHAN           bool
 location_KING AND SUDBURY            bool
 location_KING AND SUMACH             bool
-location_KING AND SUMMACH            bool
 location_KING AND TECUMESTH          bool
 location_KING AND TECUMSEH           bool
 location_KING AND TECUMSETH          bool
-location_KING AND TECUMSETH ST       bool
 location_KING AND THE QUEENSWAY      bool
 location_KING AND TORONTO            bool
 location_KING AND TRILLER            bool
 location_KING AND TUCUMSETH          bool
-location_KING AND TYNDALL            bool
 location_KING AND UNIVERSITY         bool
 location_KING AND VICTORIA           bool
 location_KING AND WALNUT             bool
 location_KING AND WIDMER             bool
 location_KING AND WILSON             bool
 location_KING AND WILSON PARK        bool
-location_KING AND WILSON PARK (      bool
 location_KING AND WILSON PARK R      bool
 location_KING AND YONG               bool
 location_KING AND YONGE              bool
@@ -1359,8 +1320,6 @@ location_KING ANS SHAW               bool
 location_KING AT CHURCH              bool
 location_KING AT JAMESON             bool
 location_KING AT SHERBOURNE          bool
-location_KING AT SUMACH              bool
-location_KING E OF ATLANTIC          bool
 location_KING E OF CHURCH            bool
 location_KING E OF PARLIAMENT        bool
 location_KING EAST AND CHURCH        bool
@@ -1455,13 +1414,11 @@ location_KINGSTON QUEEN LOOP         bool
 location_KINGSTON RD AND BINGHA      bool
 location_KINGSTON RD AND BROOKS      bool
 location_KINGSTON RD AND COLUMB      bool
-location_KINGSTON RD AND LAWLOR      bool
 location_KINGSTON RD AND LEE AV      bool
 location_KINGSTON RD AND MAIN S      bool
 location_KINGSTON RD AND QUEEN       bool
 location_KINGSTON RD AND RAINSF      bool
 location_KINGSTON RD AND SCARBO      bool
-location_KINGSTON RD AND VICTOR      bool
 location_KINGSTON RD AND WALTER      bool
 location_KINGSTON RD LOOP            bool
 location_KINGSTON ROAD AND DIXO      bool
@@ -1517,9 +1474,7 @@ location_LAKE SHORE AND PARKSID      bool
 location_LAKE SHORE AND ROYAL Y      bool
 location_LAKE SHORE AND SECOND       bool
 location_LAKE SHORE AND SIXTEEN      bool
-location_LAKE SHORE AND SPADINA      bool
 location_LAKE SHORE AND SUPERIO      bool
-location_LAKE SHORE AND THIRD        bool
 location_LAKE SHORE AND THIRTEE      bool
 location_LAKE SHORE AND THIRTIE      bool
 location_LAKE SHORE AND THIRTY       bool
@@ -1531,11 +1486,9 @@ location_LAKE SHORE BLVD AND BR      bool
 location_LAKE SHORE BLVD AND FO      bool
 location_LAKE SHORE BLVD AND LE      bool
 location_LAKE SHORE BLVD AND PA      bool
-location_LAKE SHORE BLVD AND RO      bool
 location_LAKE SHORE BLVD AND TE      bool
 location_LAKE SHORE BLVD AND TH      bool
 location_LAKE SHORE BLVD W AND       bool
-location_LAKE SHORE BLVD W JUST      bool
 location_LAKE SHORE BLVD WEST A      bool
 location_LAKE SHORE BLVD. W. AN      bool
 location_LAKE SHORE WEST AND CO      bool
@@ -1551,9 +1504,7 @@ location_LAKEHSORE AND 23 RD ST      bool
 location_LAKES SHORE AND KIPLIN      bool
 location_LAKESHORE AAND KIPLING      bool
 location_LAKESHORE AND 15 STREE      bool
-location_LAKESHORE AND 24TH ST       bool
 location_LAKESHORE AND 26TH          bool
-location_LAKESHORE AND 27TH          bool
 location_LAKESHORE AND 28TH          bool
 location_LAKESHORE AND 30TH          bool
 location_LAKESHORE AND 31 ST         bool
@@ -1563,7 +1514,6 @@ location_LAKESHORE AND 39TH          bool
 location_LAKESHORE AND 39TH STR      bool
 location_LAKESHORE AND 3RD           bool
 location_LAKESHORE AND 5TH STRE      bool
-location_LAKESHORE AND ALBERT        bool
 location_LAKESHORE AND ALEXANDE      bool
 location_LAKESHORE AND BATHURST      bool
 location_LAKESHORE AND BROOKERS      bool
@@ -1585,7 +1535,6 @@ location_LAKESHORE AND FIRST (       bool
 location_LAKESHORE AND FORTIETH      bool
 location_LAKESHORE AND FOURTEEN      bool
 location_LAKESHORE AND HILLSIDE      bool
-location_LAKESHORE AND HUMBER B      bool
 location_LAKESHORE AND ISLINGTO      bool
 location_LAKESHORE AND KIPLING       bool
 location_LAKESHORE AND LEGION        bool
@@ -1603,7 +1552,6 @@ location_LAKESHORE AND NORRIS        bool
 location_LAKESHORE AND NORRIS C      bool
 location_LAKESHORE AND PARK LAW      bool
 location_LAKESHORE AND PARKLAWN      bool
-location_LAKESHORE AND PARKSIDE      bool
 location_LAKESHORE AND ROYAL YO      bool
 location_LAKESHORE AND SEVENTH       bool
 location_LAKESHORE AND SHORE BR      bool
@@ -1647,7 +1595,6 @@ location_LAKESHORE BLVD W AT SU      bool
 location_LAKESHORE BLVD WEST AN      bool
 location_LAKESHORE BVLD AND 37T      bool
 location_LAKESHORE ND THIRTY SI      bool
-location_LAKESHORE WEST              bool
 location_LAKESHORE WEST AND BRO      bool
 location_LAKESHORE WEST AND TWE      bool
 location_LAKESHORE WEST AT THIR      bool
@@ -1672,7 +1619,6 @@ location_LANSDOWNE AND ST. CLAI      bool
 location_LANSDOWNE AVE AND DUND      bool
 location_LANSDOWNE AVE. AND DUN      bool
 location_LANSDOWNE LOOP              bool
-location_LASKESHORE AND LEGION       bool
 location_LAWRENCE AND YONGE          bool
 location_LEGION AND LAKESHORE        bool
 location_LESLIE AND COMMISSIONE      bool
@@ -1741,7 +1687,6 @@ location_MCCAUL AND ORDE             bool
 location_MCCAUL AND QUEEN            bool
 location_MCCAUL AND QUEEN (N OF      bool
 location_MCCAUL AND RENFREW          bool
-location_MCCAUL AND RENFREW PLA      bool
 location_MCCAUL AND STEPHANIE        bool
 location_MCCAUL AT QUEEN             bool
 location_MCCAUL LOOP                 bool
@@ -1784,9 +1729,7 @@ location_OLD STOCK YARD AND ST       bool
 location_OLD STOCK YARD AND ST.      bool
 location_OLD STOCK YARDS             bool
 location_ON BOARD                    bool
-location_ON KING BETWEEN YONGE       bool
 location_ON ROUTE                    bool
-location_ONTARIO AND QUEEN           bool
 location_ORIOLE PARKWAY AND CHA      bool
 location_OSSINGTON AND BATHURST      bool
 location_OSSINGTON AND COLLEGE       bool
@@ -1874,13 +1817,11 @@ location_QUEEN AND ABLE              bool
 location_QUEEN AND AGUSTA            bool
 location_QUEEN AND ALTON             bool
 location_QUEEN AND ASHBRIDGE         bool
-location_QUEEN AND ASHDALE           bool
 location_QUEEN AND AUGUST            bool
 location_QUEEN AND AUGUSTA           bool
 location_QUEEN AND BALSAM            bool
 location_QUEEN AND BALSAM AVE        bool
 location_QUEEN AND BASEBALL          bool
-location_QUEEN AND BATHRUST          bool
 location_QUEEN AND BATHURST          bool
 location_QUEEN AND BATHURST TO       bool
 location_QUEEN AND BATHURT           bool
@@ -1907,7 +1848,6 @@ location_QUEEN AND BLOOR             bool
 location_QUEEN AND BOARDWALK         bool
 location_QUEEN AND BOLTON            bool
 location_QUEEN AND BOOTH             bool
-location_QUEEN AND BOSTON            bool
 location_QUEEN AND BOULTEN           bool
 location_QUEEN AND BOULTON           bool
 location_QUEEN AND BROADVIEW         bool
@@ -1935,9 +1875,7 @@ location_QUEEN AND COADY             bool
 location_QUEEN AND CONNAUGHT         bool
 location_QUEEN AND COWAN             bool
 location_QUEEN AND COXWELL           bool
-location_QUEEN AND COXWELL (E O      bool
 location_QUEEN AND CRAVEN            bool
-location_QUEEN AND CRAWFORD          bool
 location_QUEEN AND CRILLER           bool
 location_QUEEN AND CURZON            bool
 location_QUEEN AND DALHOUSIE         bool
@@ -1945,7 +1883,6 @@ location_QUEEN AND DAVIES            bool
 location_QUEEN AND DE GRASSI         bool
 location_QUEEN AND DEGRASSE          bool
 location_QUEEN AND DEGRASSI          bool
-location_QUEEN AND DEGRASSI BRI      bool
 location_QUEEN AND DENISON           bool
 location_QUEEN AND DENSION           bool
 location_QUEEN AND DON ROADWAY       bool
@@ -1976,8 +1913,6 @@ location_QUEEN AND GLADSTONE         bool
 location_QUEEN AND GLEN MANNOR       bool
 location_QUEEN AND GLEN MANOR        bool
 location_QUEEN AND GORDON BELL       bool
-location_QUEEN AND GORE VALE         bool
-location_QUEEN AND GRANT             bool
 location_QUEEN AND GREENWOOD         bool
 location_QUEEN AND HAMILTON          bool
 location_QUEEN AND HAMMERSMITH       bool
@@ -2021,7 +1956,6 @@ location_QUEEN AND MC CAUL           bool
 location_QUEEN AND MCCAUL            bool
 location_QUEEN AND MCDOUGALL         bool
 location_QUEEN AND MCFARRENS         bool
-location_QUEEN AND MCGEE             bool
 location_QUEEN AND MENORY            bool
 location_QUEEN AND MUNRO             bool
 location_QUEEN AND MUNRO PARK        bool
@@ -2043,7 +1977,6 @@ location_QUEEN AND OHARA             bool
 location_QUEEN AND ONTARIO           bool
 location_QUEEN AND ONTARIO '         bool
 location_QUEEN AND ONTARIO ST        bool
-location_QUEEN AND ORCHARD           bool
 location_QUEEN AND ORCHARD PARK      bool
 location_QUEEN AND OSSIGNTON         bool
 location_QUEEN AND OSSINGTON         bool
@@ -2058,13 +1991,11 @@ location_QUEEN AND PORTLAND          bool
 location_QUEEN AND POWER             bool
 location_QUEEN AND RICHMOND          bool
 location_QUEEN AND RIVER             bool
-location_QUEEN AND RONCESSVALES      bool
 location_QUEEN AND RONCESSVALLE      bool
 location_QUEEN AND RONCESVALLE       bool
 location_QUEEN AND RONCESVALLED      bool
 location_QUEEN AND RONCESVALLES      bool
 location_QUEEN AND RONCESVALLLE      bool
-location_QUEEN AND RONCESVILLES      bool
 location_QUEEN AND RONCEVALLES       bool
 location_QUEEN AND RONCSVALLES       bool
 location_QUEEN AND RONCY             bool
@@ -2088,8 +2019,6 @@ location_QUEEN AND ST PATRICK        bool
 location_QUEEN AND STRACHAN          bool
 location_QUEEN AND SUDBURY           bool
 location_QUEEN AND SUMACH            bool
-location_QUEEN AND SUNNYSIDE         bool
-location_QUEEN AND SURRORAN          bool
 location_QUEEN AND TECUMSETH         bool
 location_QUEEN AND THORNE            bool
 location_QUEEN AND TRACEY            bool
@@ -2141,11 +2070,9 @@ location_QUEEN EAST AND SACKVIL      bool
 location_QUEEN EAST AND SHERBOU      bool
 location_QUEEN EAST AND WOODFIE      bool
 location_QUEEN EAST AT CARROLL       bool
-location_QUEEN QUAY AND LOWER S      bool
 location_QUEEN QUAY AND REES         bool
 location_QUEEN QUAY AND SPADINA      bool
 location_QUEEN QUAY AND YORK         bool
-location_QUEEN QUAY FERRY DOCKS      bool
 location_QUEEN QUAY LOOP             bool
 location_QUEEN ROUTE                 bool
 location_QUEEN ST AND JOSEPH DU      bool
@@ -2231,7 +2158,6 @@ location_QUEEN WEST AND RONCESV      bool
 location_QUEEN WEST AND SHAW         bool
 location_QUEEN WEST AND STRACHA      bool
 location_QUEEN WEST AND WINEVA       bool
-location_QUEEN'S QUAY AND BAY        bool
 location_QUEEN'S QUAY AND DAN L      bool
 location_QUEEN'S QUAY AND FERRY      bool
 location_QUEEN'S QUAY AND HARBO      bool
@@ -2323,7 +2249,6 @@ location_QUEN AND WOODFIELD          bool
 location_QUENS QUAY AND REES         bool
 location_QURRN AND RONCESVALLES      bool
 location_QUUEN AND PETER             bool
-location_QUUEN AND WINEVA            bool
 location_RACETRACK LOOP              bool
 location_REES AND QUEENS QUAY        bool
 location_RICHMOND AND BAY            bool
@@ -2332,7 +2257,6 @@ location_RICHMOND AND CHURCH         bool
 location_RICHMOND AND SPADINA        bool
 location_RICHMOND AND VICTORIA       bool
 location_RICHMOND AND YONGE          bool
-location_RICHMOND AT VICTORIA (      bool
 location_RIVER AND DUNDAS            bool
 location_RIVER AND GERRARD           bool
 location_RIVER AND WASCANA           bool
@@ -2358,7 +2282,6 @@ location_RONCESVALLE AND THE QU      bool
 location_RONCESVALLE YARD            bool
 location_RONCESVALLES                bool
 location_RONCESVALLES ABD BOUST      bool
-location_RONCESVALLES AND BLOOR      bool
 location_RONCESVALLES AND BOUST      bool
 location_RONCESVALLES AND DUNDA      bool
 location_RONCESVALLES AND FERMA      bool
@@ -2546,7 +2469,6 @@ location_SPADINA STATION STREET      bool
 location_SPADINA STREETCAR           bool
 location_SPADINA TUNNEL              bool
 location_SPADINA/WILCOX              bool
-location_SPADNA AND RICHMOND         bool
 location_SPRINGHURST AND DUFFER      bool
 location_SPRINGHURST LOOP            bool
 location_SPRINHURST LOOP             bool
@@ -2620,7 +2542,6 @@ location_ST CLAIR AND VAUGHAN R      bool
 location_ST CLAIR AND VAUGHN         bool
 location_ST CLAIR AND VAUGHN RD      bool
 location_ST CLAIR AND WALMER         bool
-location_ST CLAIR AND WALMER (W      bool
 location_ST CLAIR AND WARDEN         bool
 location_ST CLAIR AND WARREN         bool
 location_ST CLAIR AND WARREN RD      bool
@@ -2712,7 +2633,6 @@ location_ST. CLAIR AND NORTHCLI      bool
 location_ST. CLAIR AND OAKWOOD       bool
 location_ST. CLAIR AND OLD STOC      bool
 location_ST. CLAIR AND OLD WEST      bool
-location_ST. CLAIR AND RUSHTON       bool
 location_ST. CLAIR AND SILVERTH      bool
 location_ST. CLAIR AND SPADINA       bool
 location_ST. CLAIR AND TWEEDSMU      bool
@@ -2766,7 +2686,6 @@ location_ST.CLAIR AND YONGE (IN      bool
 location_ST.CLAIR STATION            bool
 location_ST.CLAIR WEST STATION       bool
 location_STACHAN AND FLEET           bool
-location_STCLAIR AND CHRISTIE        bool
 location_STEELES AND ISLINGTON       bool
 location_STEPHANIE AND MCCAUL        bool
 location_STRACHAN AND CANNIFF        bool
@@ -2806,7 +2725,6 @@ location_UNION GATE                  bool
 location_UNION PLATFORM              bool
 location_UNION STATION               bool
 location_UNION STATION STREETCA      bool
-location_UNION STREETCAR TUNNEL      bool
 location_UNION TUNNEL                bool
 location_UNIVERSITY AND ADELAID      bool
 location_UNIVERSITY AND DUNDAS       bool
@@ -2995,7 +2913,6 @@ vehicle_1122                         bool
 vehicle_1123                         bool
 vehicle_1126                         bool
 vehicle_1127                         bool
-vehicle_1128                         bool
 vehicle_1129                         bool
 vehicle_1130                         bool
 vehicle_1131                         bool
@@ -3061,7 +2978,6 @@ vehicle_1323                         bool
 vehicle_1324                         bool
 vehicle_1325                         bool
 vehicle_1329                         bool
-vehicle_1333                         bool
 vehicle_1334                         bool
 vehicle_1335                         bool
 vehicle_1342                         bool
@@ -3277,7 +3193,6 @@ vehicle_3563                         bool
 vehicle_3564                         bool
 vehicle_3572                         bool
 vehicle_3586                         bool
-vehicle_3596                         bool
 vehicle_3597                         bool
 vehicle_3604                         bool
 vehicle_3631                         bool
@@ -3303,9 +3218,7 @@ vehicle_3752                         bool
 vehicle_3755                         bool
 vehicle_3759                         bool
 vehicle_3813                         bool
-vehicle_403                          bool
 vehicle_423                          bool
-vehicle_4357                         bool
 vehicle_4400                         bool
 vehicle_4401                         bool
 vehicle_44014                        bool
@@ -3470,7 +3383,6 @@ vehicle_4560                         bool
 vehicle_4561                         bool
 vehicle_4562                         bool
 vehicle_4563                         bool
-vehicle_45632                        bool
 vehicle_4564                         bool
 vehicle_4565                         bool
 vehicle_4566                         bool
@@ -3679,7 +3591,6 @@ vehicle_7260                         bool
 vehicle_7262                         bool
 vehicle_7263                         bool
 vehicle_7264                         bool
-vehicle_7265                         bool
 vehicle_7266                         bool
 vehicle_7269                         bool
 vehicle_7270                         bool
@@ -3807,7 +3718,6 @@ vehicle_8052                         bool
 vehicle_8053                         bool
 vehicle_8054                         bool
 vehicle_8055                         bool
-vehicle_8057                         bool
 vehicle_8059                         bool
 vehicle_8060                         bool
 vehicle_8061                         bool
@@ -4093,7 +4003,6 @@ vehicle_8463                         bool
 vehicle_8464                         bool
 vehicle_8465                         bool
 vehicle_8467                         bool
-vehicle_8468                         bool
 vehicle_8470                         bool
 vehicle_8471                         bool
 vehicle_8474                         bool
@@ -4111,7 +4020,6 @@ vehicle_8495                         bool
 vehicle_8496                         bool
 vehicle_8498                         bool
 vehicle_8500                         bool
-vehicle_8501                         bool
 vehicle_8503                         bool
 vehicle_8504                         bool
 vehicle_8510                         bool
@@ -4409,7 +4317,6 @@ vehicle_8864                         bool
 vehicle_8865                         bool
 vehicle_8866                         bool
 vehicle_8867                         bool
-vehicle_8868                         bool
 vehicle_8870                         bool
 vehicle_8872                         bool
 vehicle_8878                         bool
@@ -4477,7 +4384,6 @@ holidayType_Labour Day               bool
 holidayType_New Year's Day           bool
 holidayType_Thanksgiving             bool
 holidayType_Victoria Day             bool
-isWeekend_yes                        bool
 seasonType_Fall 2024                 bool
 seasonType_Spring 2023               bool
 seasonType_Spring 2024               bool
