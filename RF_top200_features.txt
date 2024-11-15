@@ -1,0 +1,201 @@
+                          Feature  Importance
+               incident_Diversion    0.093264
+                         line_512    0.076124
+              incident_Mechanical    0.051701
+                timeType_off_peak    0.030017
+incident_Collision - TTC Involved    0.026492
+                         line_506    0.025851
+                         line_505    0.020830
+              incident_Operations    0.020795
+      incident_Emergency Services    0.019812
+               day_of_week_Sunday    0.016966
+                  timeType_midday    0.015072
+                         line_510    0.014700
+           incident_General Delay    0.013167
+           seasonType_Spring 2023    0.012189
+                 incident_Held By    0.011457
+           seasonType_Summer 2024    0.011104
+           location_WOLSELEY LOOP    0.010544
+                         line_503    0.010287
+        location_ST CLAIR STATION    0.009277
+            timeType_morning_peak    0.008912
+                         line_501    0.008741
+      incident_Utilized Off Route    0.008550
+                          bound_W    0.007829
+           seasonType_Winter 2024    0.007384
+           seasonType_Winter 2023    0.007102
+                          bound_N    0.006767
+             day_of_week_Saturday    0.006265
+            day_of_week_Wednesday    0.006261
+                         line_508    0.006101
+                         line_511    0.005981
+           seasonType_Spring 2024    0.005814
+       location_SPADINA AND BLOOR    0.005740
+                          bound_S    0.005606
+           seasonType_Summer 2023    0.005458
+              day_of_week_Tuesday    0.005403
+             day_of_week_Thursday    0.005293
+               day_of_week_Monday    0.005002
+                incident_Security    0.004837
+            location_LESLIE BARNS    0.004627
+      location_ST CLAIR AND YONGE    0.004574
+                         line_504    0.004490
+                         line_306    0.004237
+                         line_304    0.003670
+  location_BROADVIEW AND MOUNTSTE    0.003394
+       location_ST. CLAIR STATION    0.003340
+         location_SPADINA STATION    0.003179
+              location_GUNNS LOOP    0.002666
+   location_VICTORIA PARK STATION    0.002587
+                         line_507    0.002424
+  location_ST CLAIR AND DEER PARK    0.002356
+             seasonType_Fall 2024    0.002346
+      location_GUNNS AND ST CLAIR    0.002033
+                         line_509    0.001983
+           location_UNION STATION    0.001944
+                     vehicle_8304    0.001833
+  location_QUEEN AND NEVILLE PARK    0.001821
+                         line_310    0.001752
+    location_ST CLAIR AND VAUGHAN    0.001671
+                     vehicle_8188    0.001533
+           incident_Investigation    0.001527
+       location_MUNRO AND GERRARD    0.001505
+    location_ST CLAIR AND OAKWOOD    0.001341
+  location_ST CLAIR AND OLD WESTO    0.001335
+                     vehicle_4423    0.001306
+           location_FRONT AND BAY    0.001274
+       location_KING AND BATHURST    0.001273
+                     vehicle_4575    0.001261
+           location_WILSON GARAGE    0.001254
+                     vehicle_4430    0.001229
+                     vehicle_8138    0.001222
+                     vehicle_4500    0.001197
+    location_CASTLE FRANK STATION    0.001197
+                     vehicle_4527    0.001186
+            location_BINGHAM LOOP    0.001177
+         location_KING AND CHURCH    0.001156
+           incident_Rail/Switches    0.001151
+     location_ST CLAIR AND AVENUE    0.001138
+     location_DUNDAS WEST STATION    0.001105
+      location_BATHURST AND QUEEN    0.001102
+                     vehicle_4531    0.001100
+         location_CHURCH AND KING    0.001099
+       location_SPADINA AND QUEEN    0.001080
+                     vehicle_3517    0.001074
+         location_KING AND SUMACH    0.001063
+        location_DUNDAS AND YONGE    0.001050
+                     vehicle_4494    0.001049
+                     vehicle_4503    0.001045
+                     vehicle_4587    0.001009
+       location_QUEEN AND COXWELL    0.001005
+                     vehicle_4439    0.001002
+                     vehicle_4448    0.000979
+                     vehicle_4597    0.000967
+        location_KING AND SPADINA    0.000967
+       location_GERRARD AND MUNRO    0.000953
+        location_BATHURST STATION    0.000934
+        location_SPADINA AND KING    0.000932
+     location_GUNNS AND TARRAGONA    0.000921
+         holidayType_Victoria Day    0.000901
+           location_KINGSTON LOOP    0.000901
+                     vehicle_4497    0.000891
+                     vehicle_4407    0.000889
+                     vehicle_4492    0.000884
+      location_SPADINA AND SUSSEX    0.000884
+        location_LONG BRANCH LOOP    0.000883
+                     vehicle_8127    0.000882
+                     vehicle_4571    0.000880
+                     vehicle_4420    0.000869
+      location_QUEEN AND KINGSTON    0.000863
+                     vehicle_4528    0.000862
+                     vehicle_4431    0.000862
+             location_HUMBER LOOP    0.000852
+       location_QUEEN AND SPADINA    0.000837
+                     vehicle_8673    0.000837
+                     vehicle_4505    0.000832
+                     vehicle_8199    0.000826
+                     vehicle_4592    0.000822
+    location_SPADINA AND SULLIVAN    0.000819
+         location_EXHIBITION LOOP    0.000819
+         location_SUMACH AND KING    0.000809
+                     vehicle_4588    0.000802
+                     vehicle_4428    0.000797
+     location_SPADINA AND COLLEGE    0.000796
+       location_KING AND DUFFERIN    0.000793
+                     vehicle_4558    0.000790
+                     vehicle_4493    0.000790
+                     vehicle_4553    0.000780
+  location_QUEEN AND RONCESVALLES    0.000778
+                     vehicle_4483    0.000778
+                     vehicle_4509    0.000776
+                     vehicle_4526    0.000772
+                     vehicle_8649    0.000766
+                     vehicle_4591    0.000765
+                     vehicle_4417    0.000760
+   location_ST CLAIR AND BATHURST    0.000756
+      location_BATHURST AND FLEET    0.000753
+                     vehicle_4517    0.000750
+   location_ST CLAIR AND DUFFERIN    0.000749
+                     vehicle_4508    0.000743
+      location_DUNDAS AND SPADINA    0.000733
+                     vehicle_4490    0.000718
+                     vehicle_8713    0.000712
+        location_MCCAUL AND QUEEN    0.000710
+       location_RONCESVALLES YARD    0.000709
+       location_COLLEGE AND YONGE    0.000708
+                     vehicle_8835    0.000702
+  location_HOWARD PARK AND RONCES    0.000700
+                     vehicle_4462    0.000695
+                     vehicle_4536    0.000687
+                     vehicle_4455    0.000683
+                     vehicle_4487    0.000680
+                     vehicle_4441    0.000677
+                     vehicle_8384    0.000675
+                     vehicle_4546    0.000674
+                     vehicle_4419    0.000667
+   location_COLLEGE AND LANSDOWNE    0.000661
+                     vehicle_8313    0.000660
+        location_CHURCH AND QUEEN    0.000655
+     location_ST CLAIR AND WINONA    0.000651
+       location_BERKELEY AND KING    0.000647
+     location_QUEEN AND BROADVIEW    0.000645
+           location_YORK AND KING    0.000642
+                     vehicle_4465    0.000642
+                     vehicle_4550    0.000637
+      location_ST CLAIR AND GUNNS    0.000634
+                     vehicle_8303    0.000632
+                     vehicle_4602    0.000631
+                     vehicle_8663    0.000624
+                     vehicle_4557    0.000621
+                     vehicle_4434    0.000614
+       location_QUEEN AND CARROLL    0.000613
+                     vehicle_4510    0.000612
+                     vehicle_4400    0.000605
+    location_COLLEGE AND BATHURST    0.000602
+                     vehicle_8349    0.000601
+                     vehicle_3365    0.000596
+                     vehicle_4463    0.000596
+    location_QUEENS QUAY AND REES    0.000593
+       location_BROADVIEW STATION    0.000588
+          location_CHARLOTTE LOOP    0.000579
+                     vehicle_8184    0.000577
+       holidayType_New Year's Day    0.000576
+                     vehicle_4506    0.000576
+                     vehicle_4491    0.000573
+                     vehicle_4567    0.000571
+                     vehicle_4565    0.000568
+                     vehicle_4518    0.000565
+        location_QUEEN AND JARVIS    0.000563
+                     vehicle_4484    0.000553
+   location_SPADINA AND LAKESHORE    0.000552
+   location_GERRARD AND BROADVIEW    0.000541
+   location_PARLIAMENT AND DUNDAS    0.000540
+                     vehicle_4443    0.000540
+                     vehicle_4601    0.000540
+                     vehicle_4415    0.000540
+                     vehicle_4561    0.000539
+        location_DUNDAS AND BLOOR    0.000537
+                     vehicle_4559    0.000534
+                     vehicle_8380    0.000534
+                     vehicle_4440    0.000533
+                     vehicle_4585    0.000531
