@@ -5,7 +5,6 @@ min_gap                                       int64
 lineId                                       object
 lineName                                     object
 delayType                                     int64
-delay_category                             category
 location_1 DAVIES AVE                          bool
 location_10 RITCHIE AVE                        bool
 location_100 KING ST W                         bool
