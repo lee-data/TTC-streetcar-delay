@@ -59,7 +59,7 @@ Here are key insights from our data analysis highlighting critical patterns and 
 -	Line and line type: The Queen line sees the highest delays, while regular service lines account for 94% of total delay hours, making them a priority for optimization.
 -	Delay hotspots: King and Church and Dundas West station are the top delay hotspots.
 -	Time of day: Off-peak hours accumulate to the most delay hours at 1,820 hours annually.
--	Critical lines: Lines like 501, 504, 55, and 56 appear frequently, confirming their critical role in addressing delays.
+-	Critical lines: Lines like 501, 504, 505, and 506 appear frequently, confirming their critical role in addressing delays.
 
 
 ## RECOMMENDATIONS
