@@ -1,6 +1,5 @@
 # TTC Streetcar Delay Prediction - A Data Science Approach
 
-## VIDEO VERSION
 To watch the narrated video, please click on the [Youtube link](https://www.youtube.com/watch?v=US7fKLYEJQg) here or click on the image below.
 
 [![TTC Streetcar Delay - A Data Science Approach](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Thumnail.jpg)](https://www.youtube.com/watch?v=US7fKLYEJQg)
