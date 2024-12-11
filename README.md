@@ -46,7 +46,7 @@ We explored seven predictive models optimizing for balanced accuracy. The random
 ## PROTOTYPE
 
 To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. 
-CLick on the image to go to the interactive web application. 
+Click on the image to access our interactive web application. 
 
 [![PROTOTYPE](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Prototype.png)](https://ttc-app.eltaydigital.com)
 
