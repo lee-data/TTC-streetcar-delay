@@ -44,12 +44,14 @@ We explored seven predictive models optimizing for balanced accuracy. The random
 
 [![PROTOTYPE](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Prototype.png)](https://ttc-app.eltaydigital.com)
 
-To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
+To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. 
 
 
 ## INSIGHTS
 
 ![INSIGHTS](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Insights.png)
+
+Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
 
 Top 10 features importance: Incident-related features like diversion and mechanical issues are the most influential in predicting delay types, along with key routes such as lines 512 and 506.
 
