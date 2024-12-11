@@ -53,11 +53,11 @@ To make our findings actionable, we developed an interactive web application hos
 
 Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
 
-Top 10 features importance: Incident-related features like diversion and mechanical issues are the most influential in predicting delay types, along with key routes such as lines 512 and 506.
+-   Top 10 features importance: Incident-related features like diversion and mechanical issues are the most influential in predicting delay types, along with key routes such as lines 512 and 506.
 
 -	Top 10 incidents: Diversions lead delay causes with 931 hours annually, followed by operational incidents, underscoring areas for improvement.
 -	Line and line type: The Queen line sees the highest delays, while regular service lines account for 94% of total delay hours, making them a priority for optimization.
--	Hotspots: King and Church and Dundas West station are the top delay hotspots.
+-	Delay hotspots: King and Church and Dundas West station are the top delay hotspots.
 -	Time of day: Off-peak hours accumulate to the most delay hours at 1,820 hours annually.
 -	Critical lines: Lines like 501, 504, 55, and 56 appear frequently, confirming their critical role in addressing delays.
 
