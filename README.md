@@ -45,7 +45,7 @@ We explored seven predictive models optimizing for balanced accuracy. The random
 
 To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
 
----
+
 ## INSIGHTS
 
 ![INSIGHTS](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Insights.png)
@@ -58,7 +58,7 @@ Top 10 features importance: Incident-related features like diversion and mechani
 -	Time of day: Off-peak hours accumulate to the most delay hours at 1,820 hours annually.
 -	Critical lines: Lines like 501, 504, 55, and 56 appear frequently, confirming their critical role in addressing delays.
 
----
+
 ## RECOMMENDATIONS
 
 Key recommendations include:
@@ -66,7 +66,7 @@ Key recommendations include:
 -	Prioritizing the dominant features contributing most to delays.
 -	Leveraging these predictions for continuous improvements in operational efficiency.
 
----
+
 ## PROJECT TEAM 
 
 ![PROJECT TEAM](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Project%20team.png)
