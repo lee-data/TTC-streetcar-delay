@@ -1,6 +1,6 @@
 # TTC Streetcar Delay Prediction - A Data Science Approach
 
-[![TTC Streetcar Delay - A Data Science Approach](images/Thumbnail.jpg)](https://www.youtube.com/watch?v=US7fKLYEJQg)
+[![TTC Streetcar Delay - A Data Science Approach](image/Thumbnail.jpg)](https://www.youtube.com/watch?v=US7fKLYEJQg)
 
 ---
 ## INTRODUCTION 
