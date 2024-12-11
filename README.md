@@ -81,10 +81,10 @@ Key recommendations include:
 ![PROJECT TEAM](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Project%20team.png)
 
 Meet the team behind this project:
--	**[Jay Menorca](https://www.linkedin.com/in/jay-menorca/)**: Expert in GitHub, extract load transform, and DevOps. LinkedIn: https://www.linkedin.com/in/jay-menorca/ 
--	**Ly Nguyen**: Delivering data pre-processing, exploratory analysis, machine learning models, visualization insights, and app development.
--	**XiaoXiao Gong**: Contributing to descriptive analytics, visualization, and actionable insights.
--	**Shruti Patil**: Specializing in interactive dashboards with Tableau.
+-	**[Jay Menorca](https://www.linkedin.com/in/jay-menorca/)**: Expert in GitHub, extract load transform, and DevOps. 
+-	**[Ly Nguyen](https://www.linkedin.com/in/lytrucnguyen/)**: Delivering data pre-processing, exploratory analysis, machine learning models, visualization insights, and app development.
+-	**[XiaoXiao Gong](https://www.linkedin.com/in/xiaoxiao-gong/)**: Contributing to descriptive analytics, visualization, and actionable insights.
+-	**[Shruti Patil](https://www.linkedin.com/in/shruti-patil-sp2990/)**: Specializing in interactive dashboards with Tableau.
 
 Video Editing: Ly Nguyen
 
