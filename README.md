@@ -6,7 +6,7 @@
 
 ## INTRODUCTION 
 
-Delays in public transit can disrupt daily routines and impact customer satisfaction. To address this, we analyzed TTC streetcar delay data from January 2023 to September 2024, applying advanced machine learning techniques to predict delay types and provide actionable insights.
+Delays in public transit can disrupt daily routines and impact customer satisfaction. To address this, we analyzed TTC streetcar delay data from January 2023 to September 2024, applying machine learning techniques to predict delay types and provide actionable insights.
 
 Our goal is to classify TTC streetcar delays into short, normal, or long delay categories to better understand delay patterns and help optimize operations. Predictors used for the calculations include:
 
