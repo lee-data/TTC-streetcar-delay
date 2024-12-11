@@ -1,6 +1,6 @@
 # TTC Streetcar Delay Prediction - A Data Science Approach
 
-[![TTC Streetcar Delay - A Data Science Approach](image/Thumbnail.jpg)](https://www.youtube.com/watch?v=US7fKLYEJQg)
+[![TTC Streetcar Delay - A Data Science Approach](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Thumnail.jpg)(https://www.youtube.com/watch?v=US7fKLYEJQg)
 
 
 ## INTRODUCTION 
@@ -75,7 +75,12 @@ Meet the team behind this project:
 -	**Ly Nguyen**: Delivering data pre-processing, exploratory analysis, machine learning models, visualization insights, and app development.
 -	**XiaoXiao Gong**: Contributing to descriptive analytics, visualization, and actionable insights.
 -	**Shruti Patil**: Specializing in interactive dashboards with Tableau.
+
+Video Editing: Ly Nguyen
+
 Together, we've combined our strengths to create a valuable outcome for this project.
+
+
 
 ---
 **Acknowledgement**: This project has been made possible thanks to the open data initiative of Toronto Transit Commission (TTC) and the support of The University of Toronto - Data Sciences Institute.
