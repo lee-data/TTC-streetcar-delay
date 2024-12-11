@@ -11,7 +11,8 @@ Delays in public transit can disrupt daily routines and impact customer satisfac
 Our goal is to classify TTC streetcar delays into short, normal, or long delay categories to better understand delay patterns and help optimize operations. Predictors used for the calculations include:
 
 -	Day of the week
--	Holiday season
+-	Holiday 
+-   Season
 -	Time of day
 -	Line
 -	Location
