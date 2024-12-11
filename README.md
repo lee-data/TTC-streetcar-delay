@@ -41,7 +41,7 @@ We explored seven predictive models optimizing for balanced accuracy. The random
 
 ## PROTOTYPE
 
-[![Prototype](https://ttc-app.eltaydigital.com)
+[![PROTOTYPE](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Prototype.png)](https://ttc-app.eltaydigital.com)
 
 To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
 
