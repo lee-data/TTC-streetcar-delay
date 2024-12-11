@@ -21,23 +21,19 @@ Our goal is to classify TTC streetcar delays into short, normal, or long delay c
 ---
 ## CHALLENGES
 
-![CHALLENGES](image/Challenges.png)
- ![Day of Week](<https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/READ%20ME%20-%20Challenges.png>)  
+![Challenges](<https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/READ%20ME%20-%20Challenges.png>)  
 
 However, challenges such as measurement error and recall bias were observed. Exploratory data analysis revealed significant clusters at exact 10-minute intervals with dips in the minutes between, suggesting potential recall bias. Additionally, significant outliers were observed beyond the 1-hour delay mark, extending up to 15 hours.
 
 ---
 ## DATA PREPROCESSING 
 
-![DATA PREPROCESSING](images/Preprocessing.png)
-
-
 We worked with about 4,400 one-hot encoded features derived from delay records. Data pre-processing involved the removal of null and missing values, as well as stratified sampling, class balancing, and dimensionality reduction. This included utilizing the feature importance algorithm derived from random forest, applying principal component analysis, and testing uniform manifold approximation and projection.
 
 ---
 ## PREDICTIVE MODELS
 
-![PREDICTIVE MODELS](images/Predictive.png)
+![PREDICTIVE MODELS](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Predictive%20models.png)
 
 We explored seven predictive models optimizing for balanced accuracy. The random forest classifier, XG boost classifier, and neural network were applied to various transformed data sets. The ensemble bagging method with PCA emerged as the top performer, while other models were more effective at identifying the majority class but struggled to detect the minority classes.
 
