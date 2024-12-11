@@ -1,6 +1,7 @@
 # TTC Streetcar Delay Prediction - A Data Science Approach
 
-# **[VIDEO](https://www.youtube.com/watch?v=US7fKLYEJQg)** 
+## VIDEO
+# **[Video Link](https://www.youtube.com/watch?v=US7fKLYEJQg)** 
 
 [![TTC Streetcar Delay - A Data Science Approach](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Thumnail.jpg)](https://www.youtube.com/watch?v=US7fKLYEJQg)
 
@@ -41,9 +42,9 @@ We worked with about 4,400 one-hot encoded features derived from delay records. 
 We explored seven predictive models optimizing for balanced accuracy. The random forest classifier, XG boost classifier, and neural network were applied to various transformed data sets. The ensemble bagging method with PCA emerged as the top performer, while other models were more effective at identifying the majority class but struggled to detect the minority classes.
 
 
-## **[PROTOTYPE](https://ttc-app.eltaydigital.com)** 
+## PROTOTYPE
 
-To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. 
+To make our findings actionable, we developed an [interactive web application](https://ttc-app.eltaydigital.com) hosted on Render, allowing users to predict delay types based on selected features. 
 
 [![PROTOTYPE](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Prototype.png)](https://ttc-app.eltaydigital.com)
 
