@@ -1,78 +1,69 @@
-# Team 24 - TTC Streetcar Delay
+# TTC Streetcar Delay Prediction - A Data Science Approach
 
-UOfT-DSI Cohort 4 - Team 24's Github project repository.
+---
+## INTRODUCTION 
 
-<h2>Dataset</h2>
-TTC Streetcar Delay
+Delays in public transit can disrupt daily routines and impact customer satisfaction. To address this, we analyzed TTC streetcar delay data from January 2023 to September 2024, applying advanced machine learning techniques to predict delay types and provide actionable insights.
 
-<h2>Research Question</h2>
-<ul>
-  <li>Random Forest Classification: Which features are most likely predictors for which delay type (fast, expected, long)?</li> 
-</ul>
+Our goal is to classify TTC streetcar delays into short, normal, or long delay categories to better understand delay patterns and help optimize operations. Predictors used for the calculations include:
 
-<h2>Business Case</h2>
-<ul>
-  <li>Case Study: TTC StreetCar Delays - Predictive Modeling </li> 
-</ul>
+-	Day of the week
+-	Holiday season
+-	Time of day
+-	Line
+-	Location
+-	Bound
+-	Vehicle
+-	Incident type
 
-<ul>
-  <li>Introduction: Toronto’s streetcar service faces incidents and delays, impacting efficiency and passenger experience. Using machine learning, particularly the Random Forest Classifier, we aim to identify key predictors of these delays.</li> 
-</ul>
+---
+## CHALLENGES
 
-<ul>
-  <li>Objective: Analyze the "TTC Streetcar Delays" dataset, and use machine learning to identify and rank the most significant predictors of delay type, to provide actionable insights.</li> 
-</ul>
+However, challenges such as measurement error and recall bias were observed. Exploratory data analysis revealed significant clusters at exact 10-minute intervals with dips in the minutes between, suggesting potential recall bias. Additionally, significant outliers were observed beyond the 1-hour delay mark, extending up to 15 hours.
 
-<ul>
-  <li>Scope:
+---
+## DATA PREPROCESSING 
 
-Data Analysis: Apply the Random Forest Classifier to historical delay data of years 2023 and 2024.
+We worked with about 4,400 one-hot encoded features derived from delay records. Data pre-processing involved the removal of null and missing values, as well as stratified sampling, class balancing, and dimensionality reduction. This included utilizing the feature importance algorithm derived from random forest, applying principal component analysis, and testing uniform manifold approximation and projection.
 
-Feature Identification: Determine and rank key predictors of delays.
+---
+## PREDICTIVE MODELS
 
-Implementation: Develop models for timely risk assessments and predictive insights.
+We explored seven predictive models optimizing for balanced accuracy. The random forest classifier, XG boost classifier, and neural network were applied to various transformed data sets. The ensemble bagging method with PCA emerged as the top performer, while other models were more effective at identifying the majority class but struggled to detect the minority classes.
 
-Outcome Communication: Present findings through clear visualizations and reports.</li> 
-</ul>
+---
+## PROTOTYPE
 
+To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
 
-<ul>
-  <li>Expected Benefits:
+---
+## INSIGHTS
 
-Operational Efficiency: Target key delay predictors to improve service reliability.
+Top 10 features importance: Incident-related features like diversion and mechanical issues are the most influential in predicting delay types, along with key routes such as lines 512 and 506.
 
-Passenger Satisfaction: Reduce delays to enhance commuting experiences.
+-	Top 10 incidents: Diversions lead delay causes with 931 hours annually, followed by operational incidents, underscoring areas for improvement.
+-	Line and line type: The Queen line sees the highest delays, while regular service lines account for 94% of total delay hours, making them a priority for optimization.
+-	Hotspots: King and Church and Dundas West station are the top delay hotspots.
+-	Time of day: Off-peak hours accumulate to the most delay hours at 1,820 hours annually.
+-	Critical lines: Lines like 501, 504, 55, and 56 appear frequently, confirming their critical role in addressing delays.
 
-Resource Optimization: Optimize maintenance and scheduling.
+---
+## RECOMMENDATIONS
 
-Data-Driven Decisions: Support ongoing improvements with data insights.</li> 
-</ul>
+Key recommendations include:
+-	Addressing measurement errors and recall bias.
+-	Prioritizing the dominant features contributing most to delays.
+-	Leveraging these predictions for continuous improvements in operational efficiency.
 
-<ul>
-  <li>Risk Management:
+---
+## PROJECT TEAM 
 
-Data Quality: Ensure accurate data collection and preprocessing.
+Meet the team behind this project:
+-	**Jay Menorca**: Expert in GitHub, extract load transform, and DevOps.
+-	**Ly Nguyen**: Delivering data pre-processing, exploratory analysis, machine learning models, visualization insights, and app development.
+-	**XiaoXiao Gong**: Contributing to descriptive analytics, visualization, and actionable insights.
+-	**Shruti Patil**: Specializing in interactive dashboards with Tableau.
+Together, we've combined our strengths to create a valuable outcome for this project.
 
-Model Accuracy: Regularly validate and monitor the predictive model.
-
-Stakeholder Engagement: Keep stakeholders updated and incorporate feedback.</li> 
-</ul>
-
-<ul>
-  <li>Conclusion: This initiative aims to support TTC’s goal of providing efficient and reliable streetcar services by identifying and addressing the root causes of delays.</li> 
-</ul> 
-
-
-<h2>Reference</h2>
-https://open.toronto.ca/dataset/ttc-streetcar-delay-data/
-
-<h2>Members</h2>
-<ul>
-  <li>Isaias (Jay) Menorca: Github, ETL, DevOps </li>
-  <li>Ly (Lee) Nguyen: Data Pre-processing, EDA, Machine Learning models, Visualization, Insights & recommendations, App Development</li>
-  <li>Xiaoxiao Gong: Descriptive Analytics, Visualizaion, Insights & Recommendations</li>
-  <li>Shruti Patel: Tableau dashboards</li>
-</ul>
-
-
-<h2>Project Notes</h2>
+---
+**Acknowledgement**: This project has been made possible thanks to the open data initiative of Toronto Transit Commission (TTC) and the support of The University of Toronto - Data Sciences Institute.
