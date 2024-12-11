@@ -2,7 +2,7 @@
 
 # **VIDEO**
 
-Click on the image to play.
+Click on the image to play the video.
 [![TTC Streetcar Delay - A Data Science Approach](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/Thumnail.jpg)](https://www.youtube.com/watch?v=US7fKLYEJQg)
 
 
