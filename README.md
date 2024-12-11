@@ -22,7 +22,7 @@ Our goal is to classify TTC streetcar delays into short, normal, or long delay c
 ## CHALLENGES
 
 ![CHALLENGES](image/Challenges.png)
- ![Day of Week](<https://github.com/lee-data/TTC-streetcar-delay/blob/release/image/Challenges.png>)
+ ![Day of Week](<https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/READ%20ME%20-%20Challenges.png>)  
 
 However, challenges such as measurement error and recall bias were observed. Exploratory data analysis revealed significant clusters at exact 10-minute intervals with dips in the minutes between, suggesting potential recall bias. Additionally, significant outliers were observed beyond the 1-hour delay mark, extending up to 15 hours.
 
