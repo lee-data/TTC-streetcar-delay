@@ -21,14 +21,14 @@ Our goal is to classify TTC streetcar delays into short, normal, or long delay c
 ---
 ## CHALLENGES
 
-![CHALLENGES](images/Challenges.jpg)
+![CHALLENGES](image/Challenges.png)
 
 However, challenges such as measurement error and recall bias were observed. Exploratory data analysis revealed significant clusters at exact 10-minute intervals with dips in the minutes between, suggesting potential recall bias. Additionally, significant outliers were observed beyond the 1-hour delay mark, extending up to 15 hours.
 
 ---
 ## DATA PREPROCESSING 
 
-![DATA PREPROCESSING](images/Preprocessing.jpg)
+![DATA PREPROCESSING](images/Preprocessing.png)
 
 
 We worked with about 4,400 one-hot encoded features derived from delay records. Data pre-processing involved the removal of null and missing values, as well as stratified sampling, class balancing, and dimensionality reduction. This included utilizing the feature importance algorithm derived from random forest, applying principal component analysis, and testing uniform manifold approximation and projection.
@@ -36,21 +36,21 @@ We worked with about 4,400 one-hot encoded features derived from delay records. 
 ---
 ## PREDICTIVE MODELS
 
-![PREDICTIVE MODELS](images/Predictive.jpg)
+![PREDICTIVE MODELS](images/Predictive.png)
 
 We explored seven predictive models optimizing for balanced accuracy. The random forest classifier, XG boost classifier, and neural network were applied to various transformed data sets. The ensemble bagging method with PCA emerged as the top performer, while other models were more effective at identifying the majority class but struggled to detect the minority classes.
 
 ---
 ## PROTOTYPE
 
-[![Prototype](images/Prototype.jpg)](ttc-app.eltaydigital.com)
+[![Prototype](images/Prototype.png)](ttc-app.eltaydigital.com)
 
 To make our findings actionable, we developed an interactive web application hosted on Render, allowing users to predict delay types based on selected features. Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
 
 ---
 ## INSIGHTS
 
-![INSIGHTS](images/Insights.jpg)
+![INSIGHTS](images/Insights.png)
 
 Top 10 features importance: Incident-related features like diversion and mechanical issues are the most influential in predicting delay types, along with key routes such as lines 512 and 506.
 
@@ -71,7 +71,7 @@ Key recommendations include:
 ---
 ## PROJECT TEAM 
 
-![PROJECT TEAM](images/Team.jpg)
+![PROJECT TEAM](images/Team.png)
 
 Meet the team behind this project:
 -	**Jay Menorca**: Expert in GitHub, extract load transform, and DevOps.
