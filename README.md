@@ -52,6 +52,7 @@ To make our findings actionable, we developed an [interactive web application](h
 
 ## INSIGHTS
 
+![INSIGHTS](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Top%2010%20features%20importance.png)
 ![INSIGHTS](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Insights.png)
 
 Here are key insights from our data analysis highlighting critical patterns and trends in streetcar delays.
