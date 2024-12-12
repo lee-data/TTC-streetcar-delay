@@ -61,9 +61,9 @@ Here are key insights from our data analysis highlighting critical patterns and 
 
 -	Top 10 incidents: Diversions lead delay causes with 931 hours annually, followed by operational incidents, underscoring areas for improvement.
 -	Line and line type: The Queen line sees the highest delays, while regular service lines account for 94% of total delay hours, making them a priority for optimization.
+-	Line names: Lines like 501, 504, 505, and 506 appear frequently, confirming their critical role in addressing delays.
 -	Delay hotspots: King and Church and Dundas West station are the top delay hotspots.
 -	Time of day: Off-peak hours accumulate to the most delay hours at 1,820 hours annually.
--	Critical lines: Lines like 501, 504, 505, and 506 appear frequently, confirming their critical role in addressing delays.
 
 
 ## RECOMMENDATIONS
@@ -79,14 +79,12 @@ Key recommendations include:
 ![PROJECT TEAM](https://github.com/lee-data/TTC-streetcar-delay/blob/release/src/visualization/README%20-%20Project%20team.png)
 
 Meet the team behind this project:
--	**[Jay Menorca](https://www.linkedin.com/in/jay-menorca/)**: Expert in GitHub, extract load transform, and DevOps. 
--	**[Ly Nguyen](https://www.linkedin.com/in/lytrucnguyen/)**: Delivering data pre-processing, exploratory analysis, machine learning models, visualization insights, and app development.
--	**[XiaoXiao Gong](https://www.linkedin.com/in/xiaoxiao-gong/)**: Contributing to descriptive analytics, visualization, and actionable insights.
--	**[Shruti Patil](https://www.linkedin.com/in/shruti-patil-sp2990/)**: Specializing in interactive dashboards with Tableau.
+-	**[Jay Menorca](https://www.linkedin.com/in/jay-menorca/)**: GitHub, extract load transform, and DevOps. 
+-	**[Ly Nguyen](https://www.linkedin.com/in/lytrucnguyen/)**: Data pre-processing, exploratory analysis, machine learning models, visualization insights, and app development.
+-	**[XiaoXiao Gong](https://www.linkedin.com/in/xiaoxiao-gong/)**: Descriptive analytics, visualization, and actionable insights.
+-	**[Shruti Patil](https://www.linkedin.com/in/shruti-patil-sp2990/)**: Interactive dashboards with Tableau.
 
 Video Editing: Ly Nguyen
-
-Together, we've combined our strengths to create a valuable outcome for this project.
 
 
 
